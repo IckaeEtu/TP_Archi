@@ -1,8 +1,8 @@
 tasks = [{
     'id': 1,
     'title': ' Courses ',
-    'description ': ' Salade , Oignons , Pommes , Clementines',
-    ' done ': True
+    'description': ' Salade , Oignons , Pommes , Clementines',
+    'done': True
 }, {
     'id': 2,
     'title': 'Apprendre REST',
@@ -11,6 +11,11 @@ tasks = [{
 }, {
     'id': 3,
     'title': 'Apprendre Ajax',
+    'description': 'Revoir les exemples et ecrire un client REST JS avecAjax',
+    'done': False
+}, {
+    'id': 4,
+    'title': 'Apprendre Ajax 45',
     'description': 'Revoir les exemples et ecrire un client REST JS avecAjax',
     'done': False
 }]
