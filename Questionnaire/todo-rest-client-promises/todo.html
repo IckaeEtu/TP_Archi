@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <title>Les questionnaires</title>
+    <link rel="stylesheet" href="css/flex.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/todo.js"></script>
+</head>
+<body>
+<header>
+    <h1>Questionnaires</h1>
+</header>
+
+<div id='main'>
+
+    <nav id="nav1">
+        <h2>Questionnaires</h2>
+        <input id="button" type="button" value="Récupérer les questionnaires"/>
+        <div id="questionnaires">
+        </div>
+    </nav>
+
+    <nav id="nav2">
+        <h2>Questions</h2>
+        <div id="questions">
+        </div>
+    </nav>
+
+    <article>
+        <h2>Éditeur de Questionnaires</h2>
+        <section id="tools">
+            <img id="add" src="img/new.png" alt="Nouveau questionnaire"/>
+            <img id="del" src="img/delete.png" alt="Supprimer ce questionnaire"/>
+        </section>
+        <section id="currentquestionnaire">
+            <!-- Formulaire pour éditer un questionnaire -->
+            <span>Nom: <input type="text" id="name"><br></span>
+            <span><input type="hidden" id="turi"><br></span>
+            <span><input type="button" id="saveTask" value="Enregistrer"></span>
+        </section>
+    </article>
+
+    <article id="question">
+        <h2>Éditeur de Questions</h2>
+        <section id="tools">
+            <img id="add_question" src="img/new.png" alt="Nouvelle question"/>
+            <img id="del_question" src="img/delete.png" alt="Supprimer cette question"/>
+        </section>
+        <section id="currentquestion">
+            <!-- Formulaire pour éditer une question -->
+            <span>Titre: <input type="text" id="title"><br></span>
+            <span>Type: <input type="text" id="type"><br></span>
+            <span><input type="hidden" id="turi"><br></span>
+            <span><input type="button" id="saveQuestion" value="Enregistrer"></span>
+        </section>
+    </article>
+</div>
+<footer>
+    <h4>©Département Informatique ⚛ IUT d'Orléans</h4>
+</footer>
+
+</body>
+</html>
