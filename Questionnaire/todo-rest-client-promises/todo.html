@@ -47,13 +47,25 @@
             <img id="add_question" src="img/new.png" alt="Nouvelle question"/>
             <img id="del_question" src="img/delete.png" alt="Supprimer cette question"/>
         </section>
-        <section id="currentquestion">
-            <!-- Formulaire pour éditer une question -->
+        <!-- <section id="currentquestion">
             <span>Titre: <input type="text" id="title"><br></span>
             <span>Type: <input type="text" id="type"><br></span>
             <span><input type="hidden" id="turi"><br></span>
             <span><input type="button" id="saveQuestion" value="Enregistrer"></span>
-        </section>
+        </section> -->
+        <section id="currentquestion">
+          <!-- Formulaire pour éditer une question -->
+          <span>Titre: <input type="text" id="title"><br></span>
+          <span>Type: 
+              <select id="type">
+                  <option value="open">Ouverte</option>
+                  <option value="multiple_choice">Choix multiple</option>
+              </select>
+          <br></span>
+          <span>Choix (séparés par des virgules): <input type="text" id="choices"><br></span>
+          <span><input type="hidden" id="turi"><br></span>
+          <span><input type="button" id="saveQuestion" value="Enregistrer"></span>
+      </section>
     </article>
 </div>
 <footer>
